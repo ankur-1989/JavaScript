@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <div>
+            <p id="para1">Copy me</p>
+        </div>
+        <script>
+            const p = document.getElementById('para1');
+            p.addEventListener('click', ()=> {
+                navigator.clipboard.writeText(p.innerText);
+            })
+        </script>
+    </body>
+</html>
