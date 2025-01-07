@@ -31,3 +31,20 @@ Hashing for Sparse Arrays:
 
 Unlike C/C++ arrays, JavaScript can handle sparse indices efficiently using hash-like structures
 */
+
+// ARRAY METHODS
+// forEach - does not return any new value.
+
+const numbers = [1, 2, 3, 4, 5, 6];
+const result = numbers.forEach((number) => number * 2);
+const newArray = numbers.map((number) => number * 2);
+
+console.log([1, 2, 3, 4, 5, 5, 6].lastIndexOf(6));
+
+// map method - returns a new transformed array.
+// find method - return the first element that matches the condition.
+// findIndex - return the index of the element that matches the condition.
+// filter - returns a new array after filtering out the elements that does not match the condition.
+// every method - if all the fields are entered.
+// some method - if a employee is present or not.
+// reduce - output always a single value. takes 4 parameters - accumulator, index, current value and array.
